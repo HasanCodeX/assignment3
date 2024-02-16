@@ -1,22 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Professional Hockeys Club</title>
 
-    <!-- tailwind and daisy cdn -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Professional Hockeys Club</title>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.2/dist/full.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
+  <!-- tailwind and daisy cdn -->
 
-    <!-- bootstrap library -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- <link
+  <!-- bootstrap library -->
+
+  <!-- <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
@@ -27,128 +24,103 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script> -->
-  </head>
+</head>
 
-  <body>
-    <header>
-      <!-- nav start from here -->
-      <nav>
-        <div class="navbar bg-base-100">
-          <div class="navbar-start">
-            <div class="dropdown">
-              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M4 6h16M4 12h8m-8 6h16"
-                  />
-                </svg>
-              </div>
-              <ul
-                tabindex="0"
-                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
-              >
-                <li><a>Item 1</a></li>
-                <li>
-                  <a>Parent</a>
-                  <ul class="p-2">
-                    <li><a>Submenu 1</a></li>
-                    <li><a>Submenu 2</a></li>
-                  </ul>
-                </li>
-                <li><a>Item 3</a></li>
-              </ul>
+<body>
+  <header>
+    <!-- nav start from here -->
+    <nav>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
             </div>
-            <a class="btn btn-ghost text-xl">Hockey’s</a>
-          </div>
-          <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1">
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Item 1</a></li>
               <li>
-                <a><span class="red-text">home</span></a>
+                <a>Parent</a>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
               </li>
-              <li><a>about</a></li>
-              <li><a>pages</a></li>
-              <li><a>blog</a></li>
-              <li><a>contact</a></li>
+              <li><a>Item 3</a></li>
             </ul>
           </div>
-          <div class="navbar-end">
-            <a class="btn btn-error">GetTicket</a>
+          <a class="btn btn-ghost text-xl">Hockey’s</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li>
+              <a><span class="red-text">home</span></a>
+            </li>
+            <li><a>about</a></li>
+            <li><a>pages</a></li>
+            <li><a>blog</a></li>
+            <li><a>contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn btn-error">GetTicket</a>
+        </div>
+      </div>
+    </nav>
+    <!-- banner section start from here -->
+    <section>
+      <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
           </div>
         </div>
-      </nav>
-      <!-- banner section start from here -->
-      <section>
-        <div class="carousel w-full">
-          <div id="slide1" class="carousel-item relative w-full">
-            <img src="Images/1.png" class="w-full" />
-            <div
-              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
-            >
-              <a href="#slide4" class="btn btn-circle">❮</a>
-              <a href="#slide2" class="btn btn-circle">❯</a>
-            </div>
-          </div>
 
-          <div id="slide2" class="carousel-item relative w-full">
-            <img src="Images/slider1.jpg" class="w-full" />
-            <div
-              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
-            >
-              <a href="#slide1" class="btn btn-circle">❮</a>
-              <a href="#slide3" class="btn btn-circle">❯</a>
-            </div>
-          </div>
-
-          <div id="slide3" class="carousel-item relative w-full">
-            <img src="Images/slider2.jpg" class="w-full" />
-            <div
-              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
-            >
-              <a href="#slide2" class="btn btn-circle">❮</a>
-              <a href="#slide4" class="btn btn-circle">❯</a>
-            </div>
-          </div>
-
-          <div id="slide4" class="carousel-item relative w-full">
-            <img src="Images/slider3.jpg" class="w-full" />
-            <div
-              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
-            >
-              <a href="#slide3" class="btn btn-circle">❮</a>
-              <a href="#slide1" class="btn btn-circle">❯</a>
-            </div>
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="Images/slider1.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
           </div>
         </div>
-      </section>
-    </header>
 
-    <main>
-      <!-- Professional Hockeys Club section start from here -->
-      <section>
-
-        <div style="text-align: center;">
-          <h1>Professional Hockeys Club</h1>
-          <p>
-            The Professional Hockey Club epitomizes excellence, teamwork, and
-            dedication, fostering talent and achieving greatness.
-          </p>
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="Images/slider2.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
         </div>
-<div class="flex">
+
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="Images/slider3.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <!-- Professional Hockeys Club section start from here -->
+    <section>
+
+      <div style="text-align: center;">
+        <h1>Professional Hockeys Club</h1>
+        <p>
+          The Professional Hockey Club epitomizes excellence, teamwork, and
+          dedication, fostering talent and achieving greatness.
+        </p>
+      </div>
+      <div class="flex">
         <div>
-          <div
-            class="radial-progress text-red-500"
-            style="--value: 70"
-            role="progressbar"
-          >
+          <div class="radial-progress text-red-500" style="--value: 70" role="progressbar">
             20%
           </div>
           <h1>Prayer Facility</h1>
@@ -156,11 +128,7 @@
         </div>
 
         <div class="lodind-box">
-          <div
-            class="radial-progress text-green-500"
-            style="--value: 70"
-            role="progressbar"
-          >
+          <div class="radial-progress text-green-500" style="--value: 70" role="progressbar">
             40%
           </div>
           <h1>Prayer Facility</h1>
@@ -168,11 +136,7 @@
         </div>
 
         <div>
-          <div
-            class="radial-progress text-yellow-500"
-            style="--value: 70"
-            role="progressbar"
-          >
+          <div class="radial-progress text-yellow-500" style="--value: 70" role="progressbar">
             80%
           </div>
           <h1>Prayer Facility</h1>
@@ -180,173 +144,155 @@
         </div>
 
         <div>
-          <div
-            class="radial-progress text-blue-500"
-            style="--value: 100"
-            role="progressbar"
-          >
+          <div class="radial-progress text-blue-500" style="--value: 100" role="progressbar">
             100%
           </div>
           <h1>Prayer Facility</h1>
           <p>Haven for spiritual solace, fostering unity and reverence.</p>
         </div>
       </div>
-      </section>
-      <!-- Program section start from here -->
-      <section></section>
-      <!-- Our New Products section start from here -->
-      <section>
-        <div>
-          <h1>Our New Products</h1>
-          <p>
-            Discover our innovative new product—pioneering solutions for modern
-            challenges
-          </p>
+    </section>
+    <!-- Program section start from here -->
+    <section>
+
+      <div style="text-align: center;">
+      <h1>Program Sections</h1>
+      <p>
+        Program sections include initialization, input, processing, output,
+        error handling, cleanup, utilities, configuration, documentation, and testing.</p>
+      </div>
+
+      <div>
+        
+        <div class="flex">
+          <div><img src="Images/2.png" alt=""></div>
+          <div><img src="Images/3.png" alt=""></div>
         </div>
 
-        <div>
-          <div>
-            <div><img src="" alt="img" /></div>
-            <div><img src="" alt="img" /></div>
-          </div>
+        <div><img src="Images/4.png" alt=""></div>
+      </div>
 
-          <div>
-            <div><img src="" alt="img" /></div>
-            <div><img src="" alt="img" /></div>
-          </div>
+    </section>
+    <!-- Our New Products section start from here -->
+    <section>
+      <div>
+        <h1>Our New Products</h1>
+        <p>
+          Discover our innovative new product—pioneering solutions for modern
+          challenges
+        </p>
+      </div>
 
-          <div>
-            <div><img src="" alt="img" /></div>
-            <div><img src="" alt="img" /></div>
-          </div>
+      <div>
+        <div class="flex">
+          <div><img src="Images/5.png" alt="img" /></div>
+          <div><img src="Images/6.png" alt="img" /></div>
         </div>
-      </section>
-      <!-- Clients Question section start from here -->
-      <section></section>
-      <!-- Get In Touch section start from here -->
-      <section>
-        <div>
-          <h1>Get In Touch</h1>
-          <p>
-            Connect with us today—let's collaborate, innovate, and create
-            together.
-          </p>
-        </div>
-        <!-- form 1 card -->
-        <div></div>
 
-        <!-- form 2 input-->
-        <div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"
-              >Name</label
-            >
-            <input
-              type="const name = (params) => {
+        <div class="flex">
+          <div><img src="Images/7.png" alt="img" /></div>
+          <div><img src="Images/8.png" alt="img" /></div>
+        </div>
+
+        <div class="flex">
+          <div><img src="Images/9.png" alt="img" /></div>
+          <div><img src="Images/10.png" alt="img" /></div>
+        </div>
+      </div>
+    </section>
+    <!-- Clients Question section start from here -->
+    <section></section>
+    <!-- Get In Touch section start from here -->
+    <section>
+      <div>
+        <h1>Get In Touch</h1>
+        <p>
+          Connect with us today—let's collaborate, innovate, and create
+          together.
+        </p>
+      </div>
+      <!-- form 1 card -->
+      <div></div>
+
+      <!-- form 2 input-->
+      <div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Name</label>
+          <input type="const name = (params) => {
           
-        }"
-              class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="John Smith"
-            />
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"
-              >Email address</label
-            >
-            <input
-              type="email"
-              class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="name@example.com"
-            />
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"
-              >Subject</label
-            >
-            <input
-              type="const name = (params) => {
-          
-        }"
-              class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="Subject"
-            />
-          </div>
-
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"
-              >Phone Number</label
-            >
-            <input
-              type="const name = (params) => {
-          
-        }"
-              class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="+8801*********"
-            />
-          </div>
-
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label"
-              >Massage</label
-            >
-            <textarea
-              class="form-control"
-              id="exampleFormControlTextarea1"
-              rows="3"
-            ></textarea>
-          </div>
+        }" class="form-control" id="exampleFormControlInput1" placeholder="John Smith" />
         </div>
-      </section>
-    </main>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Subject</label>
+          <input type="const name = (params) => {
+          
+        }" class="form-control" id="exampleFormControlInput1" placeholder="Subject" />
+        </div>
 
-    <!-- footer section start from here -->
-    <footer class="footer p-10 bg-base-200 text-base-content">
-      <aside>
-        <!-- <svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" class="fill-current"><path d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"></path></svg>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+          <input type="const name = (params) => {
+          
+        }" class="form-control" id="exampleFormControlInput1" placeholder="+8801*********" />
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Massage</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer section start from here -->
+  <footer class="footer p-10 bg-base-200 text-base-content">
+    <aside>
+      <!-- <svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" class="fill-current"><path d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"></path></svg>
     <p>ACME Industries Ltd.<br>Providing reliable tech since 1992</p>
     <p class="email-link">
       <img class="mail-logo" src="mail-logo.png" alt="Mail Logo">
       <a href="mailto:yourname@example.com"></a>
     </p> -->
 
-        <h2 class="footer-title">Contact Us</h2>
-        <p>
-          "Professional Hockey Club: Bringing passion, skill, <br />and teamwork
-          to the ice for thrilling sporting experiences."
-        </p>
-        <div class="contact-info">
-          <a href="mailto:yourname@example.com"> hockeys@support.com </a>
-          <br />
-          <a href="tel:+1234567890"> (+62) 123-321-543 </a>
-        </div>
-      </aside>
-      <nav>
-        <h6 class="footer-title">Company</h6>
-        <a class="link link-hover">About us</a>
-        <a class="link link-hover">Leadership</a>
-        <a class="link link-hover">Careers</a>
-        <a class="link link-hover">News & Article</a>
-        <a class="link link-hover">Legal Notice</a>
-      </nav>
-      <nav>
-        <h6 class="footer-title">Support</h6>
-        <a class="link link-hover">Help Center</a>
-        <a class="link link-hover">FAQ</a>
-        <a class="link link-hover">Ticket Support</a>
-        <a class="link link-hover">Contact Us</a>
-      </nav>
-      <nav>
-        <h6 class="footer-title">Services</h6>
-        <a class="link link-hover">Academy</a>
-        <a class="link link-hover">Group Lesson</a>
-        <a class="link link-hover">Private Lesson</a>
-        <a class="link link-hover">Hockeys for kids</a>
-        <a class="link link-hover">Hockeys for Adult</a>
-      </nav>
-    </footer>
-  </body>
+      <h2 class="footer-title">Contact Us</h2>
+      <p>
+        "Professional Hockey Club: Bringing passion, skill, <br />and teamwork
+        to the ice for thrilling sporting experiences."
+      </p>
+      <div class="contact-info">
+        <a href="mailto:yourname@example.com"> hockeys@support.com </a>
+        <br />
+        <a href="tel:+1234567890"> (+62) 123-321-543 </a>
+      </div>
+    </aside>
+    <nav>
+      <h6 class="footer-title">Company</h6>
+      <a class="link link-hover">About us</a>
+      <a class="link link-hover">Leadership</a>
+      <a class="link link-hover">Careers</a>
+      <a class="link link-hover">News & Article</a>
+      <a class="link link-hover">Legal Notice</a>
+    </nav>
+    <nav>
+      <h6 class="footer-title">Support</h6>
+      <a class="link link-hover">Help Center</a>
+      <a class="link link-hover">FAQ</a>
+      <a class="link link-hover">Ticket Support</a>
+      <a class="link link-hover">Contact Us</a>
+    </nav>
+    <nav>
+      <h6 class="footer-title">Services</h6>
+      <a class="link link-hover">Academy</a>
+      <a class="link link-hover">Group Lesson</a>
+      <a class="link link-hover">Private Lesson</a>
+      <a class="link link-hover">Hockeys for kids</a>
+      <a class="link link-hover">Hockeys for Adult</a>
+    </nav>
+  </footer>
+</body>
+
 </html>
