@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en" data-theme="light"></html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -13,6 +14,31 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <!-- font -->
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Manrope?query=Manrope">
+
+<!-- shared style -->
+<style>
+ .title-txt{color: #131318;
+text-align: center;
+font-family: Manrope;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;}
+</style>
+
+
+
+
+
+
+
+
+
+
 
   <body>
     <header>
@@ -57,12 +83,12 @@
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
               <li>
-                <a><span class="red-text">home</span></a>
+                <a><span class="text-red-600">Home</span></a>
               </li>
-              <li><a>about</a></li>
-              <li><a>pages</a></li>
-              <li><a>blog</a></li>
-              <li><a>contact</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
             </ul>
           </div>
           <div class="navbar-end">
@@ -120,7 +146,7 @@
       <!-- Professional Hockeys Club section start from here -->
       <section>
         <div style="text-align: center">
-          <h1>Professional Hockeys Club</h1>
+          <h1 class="title-txt">Professional Hockeys Club</h1>
           <p>
             The Professional Hockey Club epitomizes excellence, teamwork, and
             dedication, fostering talent and achieving greatness.
@@ -179,7 +205,7 @@
       <!-- Program section start from here -->
       <section>
         <div style="text-align: center">
-          <h1>Program Sections</h1>
+          <h1 class="title-txt">Program Sections</h1>
           <p>
             Program sections include initialization, input, processing, output,
             error handling, cleanup, utilities, configuration, documentation,
@@ -199,7 +225,7 @@
       <!-- Our New Products section start from here -->
       <section>
         <div style="text-align: center;">
-          <h1>Our New Products</h1>
+          <h1 class="title-txt">Our New Products</h1>
           <p>
             Discover our innovative new product—pioneering solutions for modern
             challenges
@@ -228,7 +254,7 @@
       <!-- Get In Touch section start from here -->
       <section>
         <div style="text-align: center">
-          <h1>Get In Touch</h1>
+          <h1 class="title-txt">Get In Touch</h1>
           <p>
             Connect with us today—let's collaborate, innovate, and create
             together.
@@ -321,8 +347,13 @@
 
 
       <style>
+
+
         /* CSS for social media section */
-        .social-media {
+
+        
+        
+        .social-media { 
           margin-top: 20px;
         }
         .social-media ul {
@@ -339,10 +370,10 @@
         }
         .social-media ul li a {
           display: block;
-          width: 40px; /* Adjust as needed */
-          height: 40px; /* Adjust as needed */
-          background-color: #007bff; /* Adjust as needed */
-          color: #fff; /* Adjust as needed */
+          width: 40px; 
+          height: 40px; 
+          background-color: #007bff; 
+          color: #fff; 
           text-align: center;
           line-height: 40px;
           border-radius: 50%;
@@ -350,25 +381,30 @@
           transition: background-color 0.3s ease;
         }
         .social-media ul li a:hover {
-          background-color: #0056b3; /* Adjust as needed */
+          background-color: #0056b3; 
         }
         .social-media ul li img {
           width: 100%;
           height: auto;
           border-radius: 50%;
         }
+       
       </style>
     </head>
     <body>
     
     <section class="social-media">
-      <h1>Social Midea</h1>
+      <h1 class="title-txt">Social Midea</h1>
+
+      <div>
+      
       <ul>
         <li><a href="https://www.facebook.com"><img src="Images/icon/social.png" alt="Facebook"></a></li>
         <li><a href="https://www.twitter.com"><img src="Images/icon/twitter.png" alt="Twitter"></a></li>
         <li><a href="https://www.instagram.com"><img src="Images/icon/instagram.png" alt="Instagram"></a></li>
         <li><a href="https://www.github.com"><img src="Images/icon/github.png" alt="github"></a></li><!-- Add more social media icons as needed -->
       </ul>
+    </div>
     </section>
 
 
