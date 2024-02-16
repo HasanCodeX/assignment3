@@ -1,35 +1,35 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light"></html>
+<html lang="en" data-theme="light">
+
+</html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Professional Hockeys Club</title>
 
-    <!-- tailwind and daisy cdn -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Professional Hockeys Club</title>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.2/dist/full.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
+  <!-- tailwind and daisy cdn -->
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
 
 
-    <!-- font -->
-    <link rel="stylesheet" href="https://fonts.google.com/specimen/Manrope?query=Manrope">
+  <!-- font -->
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Manrope?query=Manrope">
 
-<!-- shared style -->
-<style>
- .title-txt{color: #131318;
-text-align: center;
-font-family: Manrope;
-font-size: 36px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;}
-</style>
-
+  <!-- shared style -->
+  <style>
+    .title-txt {
+      color: #131318;
+      text-align: center;
+      font-family: Manrope;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+    }
+  </style>
 
 
 
@@ -40,230 +40,194 @@ line-height: normal;}
 
 
 
-  <body>
-    <header>
-      <!-- nav start from here -->
-      <nav>
-        <div class="navbar bg-base-100">
-          <div class="navbar-start">
-            <div class="dropdown">
-              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M4 6h16M4 12h8m-8 6h16"
-                  />
-                </svg>
-              </div>
-              <ul
-                tabindex="0"
-                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
-              >
-                <li><a>Item 1</a></li>
-                <li>
-                  <a>Parent</a>
-                  <ul class="p-2">
-                    <li><a>Submenu 1</a></li>
-                    <li><a>Submenu 2</a></li>
-                  </ul>
-                </li>
-                <li><a>Item 3</a></li>
-              </ul>
+
+<body>
+  <header>
+    <!-- nav start from here -->
+    <nav>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
             </div>
-            <a class="btn btn-ghost text-xl">Hockey’s</a>
-          </div>
-          <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1">
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Item 1</a></li>
               <li>
-                <a><span class="text-red-600">Home</span></a>
+                <a>Parent</a>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
               </li>
-              <li><a>About</a></li>
-              <li><a>Pages</a></li>
-              <li><a>Blog</a></li>
-              <li><a>Contact</a></li>
+              <li><a>Item 3</a></li>
             </ul>
           </div>
-          <div class="navbar-end">
-            <a class="btn btn-error">GetTicket</a>
+          <a class="btn btn-ghost text-xl">Hockey’s</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li>
+              <a><span class="text-red-600">Home</span></a>
+            </li>
+            <li><a>About</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn btn-error">GetTicket</a>
+        </div>
+      </div>
+    </nav>
+    <!-- banner section start from here -->
+    <section>
+      <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
           </div>
         </div>
-      </nav>
-      <!-- banner section start from here -->
-      <section>
-        <div class="carousel w-full">
-          <div id="slide1" class="carousel-item relative w-full">
-            <img src="Images/1.png" class="w-full" />
-            <div
-              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
-            >
-              <a href="#slide4" class="btn btn-circle">❮</a>
-              <a href="#slide2" class="btn btn-circle">❯</a>
-            </div>
-          </div>
 
-          <div id="slide2" class="carousel-item relative w-full">
-            <img src="Images/slider1.jpg" class="w-full" />
-            <div
-              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
-            >
-              <a href="#slide1" class="btn btn-circle">❮</a>
-              <a href="#slide3" class="btn btn-circle">❯</a>
-            </div>
-          </div>
-
-          <div id="slide3" class="carousel-item relative w-full">
-            <img src="Images/slider2.jpg" class="w-full" />
-            <div
-              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
-            >
-              <a href="#slide2" class="btn btn-circle">❮</a>
-              <a href="#slide4" class="btn btn-circle">❯</a>
-            </div>
-          </div>
-
-          <div id="slide4" class="carousel-item relative w-full">
-            <img src="Images/slider3.jpg" class="w-full" />
-            <div
-              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
-            >
-              <a href="#slide3" class="btn btn-circle">❮</a>
-              <a href="#slide1" class="btn btn-circle">❯</a>
-            </div>
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="Images/slider1.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
           </div>
         </div>
-      </section>
-    </header>
 
-    <main>
-      <!-- Professional Hockeys Club section start from here -->
-      <section>
-        <div style="text-align: center">
-          <h1 class="title-txt">Professional Hockeys Club</h1>
-          <p>
-            The Professional Hockey Club epitomizes excellence, teamwork, and
-            dedication, fostering talent and achieving greatness.
-          </p>
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="Images/slider2.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
         </div>
+
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="Images/slider3.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <!-- Professional Hockeys Club section start from here -->
+    <section>
+      <div style="text-align: center">
+        <h1 class="title-txt">Professional Hockeys Club</h1>
+        <p>
+          The Professional Hockey Club epitomizes excellence, teamwork, and
+          dedication, fostering talent and achieving greatness.
+        </p>
+      </div>
+      <div class="flex">
+        <div>
+          <div class="radial-progress text-red-500" style="--value: 70" role="progressbar">
+            20%
+          </div>
+          <h1>Prayer Facility</h1>
+          <p>Haven for spiritual solace, fostering unity and reverence.</p>
+        </div>
+
+        <div class="lodind-box">
+          <div class="radial-progress text-green-500" style="--value: 70" role="progressbar">
+            40%
+          </div>
+          <h1>Prayer Facility</h1>
+          <p>Haven for spiritual solace, fostering unity and reverence.</p>
+        </div>
+
+        <div>
+          <div class="radial-progress text-yellow-500" style="--value: 70" role="progressbar">
+            80%
+          </div>
+          <h1>Prayer Facility</h1>
+          <p>Haven for spiritual solace, fostering unity and reverence.</p>
+        </div>
+
+        <div>
+          <div class="radial-progress text-blue-500" style="--value: 100" role="progressbar">
+            100%
+          </div>
+          <h1>Prayer Facility</h1>
+          <p>Haven for spiritual solace, fostering unity and reverence.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Program section start from here -->
+    <section>
+      <div style="text-align: center">
+        <h1 class="title-txt">Program Sections</h1>
+        <p>
+          Program sections include initialization, input, processing, output,
+          error handling, cleanup, utilities, configuration, documentation,
+          and testing.
+        </p>
+      </div>
+
+      <div>
         <div class="flex">
-          <div>
-            <div
-              class="radial-progress text-red-500"
-              style="--value: 70"
-              role="progressbar"
-            >
-              20%
-            </div>
-            <h1>Prayer Facility</h1>
-            <p>Haven for spiritual solace, fostering unity and reverence.</p>
-          </div>
-
-          <div class="lodind-box">
-            <div
-              class="radial-progress text-green-500"
-              style="--value: 70"
-              role="progressbar"
-            >
-              40%
-            </div>
-            <h1>Prayer Facility</h1>
-            <p>Haven for spiritual solace, fostering unity and reverence.</p>
-          </div>
-
-          <div>
-            <div
-              class="radial-progress text-yellow-500"
-              style="--value: 70"
-              role="progressbar"
-            >
-              80%
-            </div>
-            <h1>Prayer Facility</h1>
-            <p>Haven for spiritual solace, fostering unity and reverence.</p>
-          </div>
-
-          <div>
-            <div
-              class="radial-progress text-blue-500"
-              style="--value: 100"
-              role="progressbar"
-            >
-              100%
-            </div>
-            <h1>Prayer Facility</h1>
-            <p>Haven for spiritual solace, fostering unity and reverence.</p>
-          </div>
-        </div>
-      </section>
-      <!-- Program section start from here -->
-      <section>
-        <div style="text-align: center">
-          <h1 class="title-txt">Program Sections</h1>
-          <p>
-            Program sections include initialization, input, processing, output,
-            error handling, cleanup, utilities, configuration, documentation,
-            and testing.
-          </p>
+          <div><img src="Images/2.png" alt="" /></div>
+          <div><img src="Images/3.png" alt="" /></div>
         </div>
 
-        <div>
-          <div class="flex">
-            <div><img src="Images/2.png" alt="" /></div>
-            <div><img src="Images/3.png" alt="" /></div>
-          </div>
+        <div><img src="Images/4.png" alt="" /></div>
+      </div>
+    </section>
+    <!-- Our New Products section start from here -->
+    <section>
+      <div style="text-align: center;">
+        <h1 class="title-txt">Our New Products</h1>
+        <p>
+          Discover our innovative new product—pioneering solutions for modern
+          challenges
+        </p>
+      </div>
 
-          <div><img src="Images/4.png" alt="" /></div>
-        </div>
-      </section>
-      <!-- Our New Products section start from here -->
-      <section>
-        <div style="text-align: center;">
-          <h1 class="title-txt">Our New Products</h1>
-          <p>
-            Discover our innovative new product—pioneering solutions for modern
-            challenges
-          </p>
-        </div>
-
-        <div>
-          <div class="flex">
-            <div><img src="Images/5.png" alt="img" /></div>
-            <div><img src="Images/6.png" alt="img" /></div>
-          </div>
-
-          <div class="flex">
-            <div><img src="Images/7.png" alt="img" /></div>
-            <div><img src="Images/8.png" alt="img" /></div>
-          </div>
-
-          <div class="flex">
-            <div><img src="Images/9.png" alt="img" /></div>
-            <div><img src="Images/10.png" alt="img" /></div>
-          </div>
-        </div>
-      </section>
-      <!-- Clients Question section start from here -->
-      <section></section>
-      <!-- Get In Touch section start from here -->
-      <section>
-        <div style="text-align: center">
-          <h1 class="title-txt">Get In Touch</h1>
-          <p>
-            Connect with us today—let's collaborate, innovate, and create
-            together.
-          </p>
+      <div>
+        <div class="flex">
+          <div><img src="Images/5.png" alt="img" /></div>
+          <div><img src="Images/6.png" alt="img" /></div>
         </div>
 
-        <!-- box -->
+        <div class="flex">
+          <div><img src="Images/7.png" alt="img" /></div>
+          <div><img src="Images/8.png" alt="img" /></div>
+        </div>
 
-        <div class="flex"">
+        <div class="flex">
+          <div><img src="Images/9.png" alt="img" /></div>
+          <div><img src="Images/10.png" alt="img" /></div>
+        </div>
+      </div>
+    </section>
+    <!-- Clients Question section start from here -->
+    <section></section>
+    <!-- Get In Touch section start from here -->
+    <section>
+      <div style="text-align: center">
+        <h1 class="title-txt">Get In Touch</h1>
+        <p>
+          Connect with us today—let's collaborate, innovate, and create
+          together.
+        </p>
+      </div>
+
+      <!-- box -->
+
+      <div class="flex"">
 
         <!-- card  start-->
         <div>
@@ -276,193 +240,159 @@ line-height: normal;}
 
         <!-- form start-->
         <div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"
-              >Name</label
-            >
-            <input
-              type="const name = (params) => {
+          <div class=" mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Name</label>
+        <input type="const name = (params) => {
           
-        }"
-              class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="John Smith"
-            />
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"
-              >Email address</label
-            >
-            <input
-              type="email"
-              class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="name@example.com"
-            />
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"
-              >Subject</label
-            >
-            <input
-              type="const name = (params) => {
+        }" class="form-control" id="exampleFormControlInput1" placeholder="John Smith" />
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Subject</label>
+        <input type="const name = (params) => {
           
-        }"
-              class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="Subject"
-            />
-          </div>
+        }" class="form-control" id="exampleFormControlInput1" placeholder="Subject" />
+      </div>
 
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"
-              >Phone Number</label
-            >
-            <input
-              type="const name = (params) => {
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+        <input type="const name = (params) => {
           
-        }"
-              class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="+8801*********"
-            />
-          </div>
+        }" class="form-control" id="exampleFormControlInput1" placeholder="+8801*********" />
+      </div>
 
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label"
-              >Massage</label
-            >
-            <textarea
-              class="form-control"
-              id="exampleFormControlTextarea1"
-              rows="3"
-            ></textarea>
-          </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Massage</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      </div>
+
+      <!-- social media section -->
+    </section>
+    <style>
+      /* CSS for social media section */
+
+      .social-media {
+        margin-top: 20px;
+        text-align: center;
+        border-radius: 12px;
+        /* Added border-radius */
+        background: rgba(19, 19, 24, 0.03);
+        /* Added background color */
+        width: auto;
+        /* Added width */
+        height: 150px;
+        /* Added height */
+
+      }
+
+
+
+      .social-media ul {
+        list-style: none;
+        padding: 0;
+        margin: 0 auto;
+        /* Add 'auto' to margin to center the list */
+        display: inline-block;
+        /* Add this line to make the list center-aligned */
+      }
+
+      .social-media ul li {
+        display: inline-block;
+        margin-right: 10px;
+      }
+
+      .social-media ul li:last-child {
+        margin-right: 0;
+      }
+
+      .social-media ul li a {
+        display: block;
+        width: 40px;
+        height: 40px;
+        background-color: #007bff;
+        color: #fff;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+      }
+
+      .social-media ul li a:hover {
+        background-color: #0056b3;
+      }
+
+      .social-media ul li img {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+      }
+    </style>
+    </head>
+
+    <body>
+
+      <section class="social-media">
+        <h1 class="title-txt">Social Media</h1>
+
+        <div>
+
+          <ul>
+            <li><a href="https://www.facebook.com"><img src="Images/icon/social.png" alt="Facebook"></a></li>
+            <li><a href="https://www.twitter.com"><img src="Images/icon/twitter.png" alt="Twitter"></a></li>
+            <li><a href="https://www.instagram.com"><img src="Images/icon/instagram.png" alt="Instagram"></a></li>
+            <li><a href="https://www.github.com"><img src="Images/icon/github.png" alt="github"></a></li>
+            <!-- Add more social media icons as needed -->
+          </ul>
         </div>
-
-        <!-- social midea sectiom -->
-        
-
-<!-- orginal -->
       </section>
 
 
-      <style>
+  </main>
 
+  <!-- footer section start from here -->
+  <footer class="footer p-10 bg-base-200 text-base-content">
+    <aside>
 
-        /* CSS for social media section */
+      <h2 class="footer-title">Contact Us</h2>
+      <p>
+        "Professional Hockey Club: Bringing passion, skill, <br />and teamwork
+        to the ice for thrilling sporting experiences."
+      </p>
+      <div class="contact-info">
+        <a href="mailto:yourname@example.com"> hockeys@support.com </a>
+        <br />
+        <a href="tel:+1234567890"> (+62) 123-321-543 </a>
+      </div>
+    </aside>
+    <nav>
+      <h6 class="footer-title">Company</h6>
+      <a class="link link-hover">About us</a>
+      <a class="link link-hover">Leadership</a>
+      <a class="link link-hover">Careers</a>
+      <a class="link link-hover">News & Article</a>
+      <a class="link link-hover">Legal Notice</a>
+    </nav>
+    <nav>
+      <h6 class="footer-title">Support</h6>
+      <a class="link link-hover">Help Center</a>
+      <a class="link link-hover">FAQ</a>
+      <a class="link link-hover">Ticket Support</a>
+      <a class="link link-hover">Contact Us</a>
+    </nav>
+    <nav>
+      <h6 class="footer-title">Services</h6>
+      <a class="link link-hover">Academy</a>
+      <a class="link link-hover">Group Lesson</a>
+      <a class="link link-hover">Private Lesson</a>
+      <a class="link link-hover">Hockeys for kids</a>
+      <a class="link link-hover">Hockeys for Adult</a>
+    </nav>
+  </footer>
+</body>
 
-        .social-media {margin-top: 20px;
-  text-align: center;
-  border-radius: 12px; /* Added border-radius */
-  background: rgba(19, 19, 24, 0.03); /* Added background color */
-  width: auto; /* Added width */
-  height: 150px; /* Added height */
-  
-}
-
-
-
-.social-media ul {
-  list-style: none;
-  padding: 0;
-  margin: 0 auto; /* Add 'auto' to margin to center the list */
-  display: inline-block; /* Add this line to make the list center-aligned */
-}
-
-.social-media ul li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.social-media ul li:last-child {
-  margin-right: 0;
-}
-
-.social-media ul li a {
-  display: block;
-  width: 40px; 
-  height: 40px; 
-  background-color: #007bff; 
-  color: #fff; 
-  text-align: center;
-  line-height: 40px;
-  border-radius: 50%;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-.social-media ul li a:hover {
-  background-color: #0056b3; 
-}
-
-.social-media ul li img {
-  width: 100%;
-  height: auto;
-  border-radius: 50%;
-}
-
-
-       
-      </style>
-    </head>
-    <body>
-    
-    <section class="social-media">
-      <h1 class="title-txt">Social Midea</h1>
-
-      <div>
-      
-      <ul>
-        <li><a href="https://www.facebook.com"><img src="Images/icon/social.png" alt="Facebook"></a></li>
-        <li><a href="https://www.twitter.com"><img src="Images/icon/twitter.png" alt="Twitter"></a></li>
-        <li><a href="https://www.instagram.com"><img src="Images/icon/instagram.png" alt="Instagram"></a></li>
-        <li><a href="https://www.github.com"><img src="Images/icon/github.png" alt="github"></a></li><!-- Add more social media icons as needed -->
-      </ul>
-    </div>
-    </section>
-
-
-    </main>
-
-    <!-- footer section start from here -->
-    <footer class="footer p-10 bg-base-200 text-base-content">
-      <aside>
-   
-        <h2 class="footer-title">Contact Us</h2>
-        <p>
-          "Professional Hockey Club: Bringing passion, skill, <br />and teamwork
-          to the ice for thrilling sporting experiences."
-        </p>
-        <div class="contact-info">
-          <a href="mailto:yourname@example.com"> hockeys@support.com </a>
-          <br />
-          <a href="tel:+1234567890"> (+62) 123-321-543 </a>
-        </div>
-      </aside>
-      <nav>
-        <h6 class="footer-title">Company</h6>
-        <a class="link link-hover">About us</a>
-        <a class="link link-hover">Leadership</a>
-        <a class="link link-hover">Careers</a>
-        <a class="link link-hover">News & Article</a>
-        <a class="link link-hover">Legal Notice</a>
-      </nav>
-      <nav>
-        <h6 class="footer-title">Support</h6>
-        <a class="link link-hover">Help Center</a>
-        <a class="link link-hover">FAQ</a>
-        <a class="link link-hover">Ticket Support</a>
-        <a class="link link-hover">Contact Us</a>
-      </nav>
-      <nav>
-        <h6 class="footer-title">Services</h6>
-        <a class="link link-hover">Academy</a>
-        <a class="link link-hover">Group Lesson</a>
-        <a class="link link-hover">Private Lesson</a>
-        <a class="link link-hover">Hockeys for kids</a>
-        <a class="link link-hover">Hockeys for Adult</a>
-      </nav>
-    </footer>
-  </body>
 </html>
